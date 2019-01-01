@@ -1,0 +1,173 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	width: 1200px;
+	height: 80px;
+	margin: 0 auto;
+}
+.header .log{
+	width: 380px;
+	height: 40px;
+	background: url(../img/gateLogo.png)no-repeat center center;
+	float: left;
+	margin-left: 60px;
+	line-height: 40px;
+	padding-top: 40px;
+}
+.header span{
+    font-size: 30px;
+    float: left;
+    margin-left: 75px;
+    color: #e60012;
+    line-height: 80px;
+}
+
+.main{
+	width: 100%;
+	height: 538px;
+	background: #a10006;
+}
+.main .inner{
+	width: 1200px;
+	height: 100%;
+	background: url(../img/loginBg.png) no-repeat center center;
+	margin: 0 auto;
+}
+.content{
+	width: 284px;
+	height: 355px;
+	float: right;
+	margin: 50px 50px 0 0;
+	background: white;
+	padding: 35px;
+}
+.content a{
+	color: #666;
+	font-size: 20px;
+	text-decoration: underline;
+}
+
+
+.content .join{
+	width: 290px;
+	height: 105px;
+	margin-top: 35px;
+	
+}
+.content .join .user , .pass {
+	width: 244px;
+	height: 40px;
+	border: none;
+	padding-left: 40px;
+}
+.content .join .user{
+	background: url(../img/loginNum.png) no-repeat center center;
+	
+}
+.content .join .pass{
+	background: url(../img/loginPass.png)no-repeat center center;
+}
+.content .join .user input, .pass input{
+	width: 99%;
+	float: right;
+	margin-right: 3px;
+	margin-top: 1px;
+	height: 36px;
+	border: none;
+	line-height: 36px;
+}
+
+.join  p{
+	width: 100%;
+	height: 25px;
+	line-height: 25px;
+	overflow: hidden;
+	color: red;
+	text-align: center;
+}
+
+
+.content .remember{
+	width: 320px;
+	height: 16px;
+    float: left;
+    margin-top: 30px;
+}
+.content .remember .f1{
+	float: left;
+	
+}
+.content .remember .f1 span{
+	line-height: 16px;
+	font-size: 14px;
+    color: #666666;
+}
+.content .remember a{
+	float: right;
+	text-decoration: none;
+	margin-right:30px;
+	font-size: 14px;
+    color: #666666;
+}
+.content .ing{
+	width: 285px;
+	height: 28px;
+	margin-top: 35px;
+	background: url(../img/lossTx.png) no-repeat center center;
+	float: left;
+}
+.content .landing{
+	width: 285px;
+	height: 55px;
+	/*margin-left: 35px;*/
+	margin-top: 25px;
+	background: url(../img/loginAniu.png) no-repeat center center;
+	float: left;
+}
+.footer{
+	width: 850px;
+	height: 135px;
+	margin: 0 auto;
+	margin-top: 30px;
+	background: url(../img/foorterImg.jpg) no-repeat center center;
+}
+.end{
+	width: 100%;
+	height: 120px;
+	background: #999999;
+	margin-top: 30px;
+}
+.end .endin{
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 40px;
+}
+.end .endin .endin_ul{
+	width: 100%;
+	height:100%;
+	/*margin: 0 auto;*/
+	text-align: center;
+}
+.end .endin .endin_ul li{
+	font-size: 16px;
+	border-right: 2px solid #FFFFFF;
+	display: inline-block;
+}
+.end .endin .endin_ul li:last-child{
+	border-right: none;
+}
+.end .endin .endin_ul li a{
+	margin: 0 30px 0 30px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: 800;
+}
+.end .endin p{
+	margin-top: 25px;
+	font-size: 12px;
+	color: #FFFFFF;
+    text-align: center;
+    font-weight: 800;
+}
