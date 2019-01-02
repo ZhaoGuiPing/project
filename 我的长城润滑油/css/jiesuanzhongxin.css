@@ -411,15 +411,12 @@
 .banner-inner-order4 p:nth-child(4) input {
 	width: 183px;
 	height: 50px;
-	background: url(../img/changchengrunhuayou/redImages/fyzj_Tabfist.jpg) no-repeat;
+	background: url(../img/fyzj_Tabfist.jpg) no-repeat center center;
 	border: none;
 	display: block;
 	margin: 20px auto
 }
-.banner-inner-cont2 {
-	width: 850px;
-	margin: 30px auto;
-}
+
 /*------------------------------------------------------------------------------------------------*/
 
 #overlay {
