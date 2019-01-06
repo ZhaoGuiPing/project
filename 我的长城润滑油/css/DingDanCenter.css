@@ -160,213 +160,233 @@
 }
 /*head over*/
 /*----------------------------------------------------------------------------------------------------------*/
-.banner{
+.banner {
+	width: 100%;
+}
+.banner-inner {
 	width: 1200px;
-	height: 400px;
 	margin: 0 auto;
 }
-.banner .banner_ul{
+.banner-inner .location {
+	width: 100%;
 	height: 50px;
-	padding-left: 15px;
 }
-.banner .banner_ul li{
+.banner-inner .location li {
 	float: left;
-	font-size: 18px;
-	margin-right: 10px;
 	line-height: 50px;
 }
-.banner .banner_img{
-	width: 1200px; 
-	height: 300px;
+.banner-inner .location li:nth-child(1) {
+	margin-right: 15px;
 }
-.banner .banner_img a{
-	width: 1200px; 
-	height: 300px;
-	background: url(../img/conBanner.png) no-repeat center center;
-	display: block;
+.banner-inner .location li:nth-child(2) a:hover {
+	color: blue;
 }
-/*-------------------------------------*/
-
-.banner .message{
-	width: 1200px;
-	height: 50px;
-	margin-top: 10px;
-	border: solid 1px #ccc;
-    background-color: #E0DEDA;
+.banner-inner .location li:nth-child(3) {
+	margin-left: 10px;
+	margin-right: 10px;
 }
-.banner .message .message_ul{
-	width: 380px;
-	height: 28px;
-	margin: 10px 0 0 12px;
-    border:1px solid #999 ;
-    background: white;
-   border-left: none;
-}
-.banner .message .message_ul li{
-	float: left;
-	height: 28px;
+.banner-inner .order {
+	width: 114px;
+	height: 34px;
+	background: #005BAA;
 	text-align: center;
-	line-height: 28px;
-	border-left: solid 1px #999;
-	font-size: 14px;
-	color: #666;
+	line-height: 34px;
+	color: white;
+	margin: 15px 0;
 }
-.banner .message .message_ul li a {
-    float: left;
-    color: #666;
-    padding: 0 20px;
-    cursor: pointer;
-    text-decoration: none;
+.banner-inner-order,.banner-inner-order1,.banner-inner-order2,.banner-inner-order3 {
+	width: 1198px;
+	border: 1px solid #BBB4B4;
 }
-.banner .message .message_ul .message_ullia{
-	background-color: #005BAC;
-    color: #fff;
+.banner-inner-order-header {
+	width: 1176px;
+	height: 32px;
+	margin: 25px auto;
 }
-.color_a img{
-	margin-left: 2px;
-	margin-top: -1px;
-	width=10px;
-	height=11px;
-	
-}
-.banner .message .message_ul li .color_a:hover{
-	background: #005BAC;
-	color: #FFFFFF;
-}
-.message_ulli5{
-	position: relative;
-}
-.message_ulli5 .ulli5_div{
-    width: 120px;
-    background: #FFFFFF;
-    border: solid 1px #0066CC;
-    padding-left: -1px;
-    position: absolute;
-    top:28px;
-    left: 0px;
-    display: none;
-}
-.message_ulli5 .ulli5_div a{
-	width:80px;
-}
-.message_ulli5 .ulli5_div a:hover{
-	color:#0066CC;
-}
-.message_ulli5:hover .ulli5_div{
-	display:block
-}
-
-/*-------------------------------------------------------------------------------------*/
-.inner{
-	width: 1200px;
-	margin: 0 auto;
-}
-.goodsAll {
-	margin-right: -15px;
-	padding-top:10px ;
-}
-.goods {
-	width: 290px;
-	height: 380px;
-	margin: 15px 13px 0 0;
-	overflow: hidden;
-}
-.goods a {
-	display: block;
-	border: solid 1px #A9A9A8;
-	text-align: center;
-}
-.goods a img {
-	width: 280px;
-	height: 280px;
-}
-.goodsPa {
-	width: 275px;
-	padding: 0 5px 0 10px;
-	line-height: 22px;
-	margin-top: 5px;
-	height: 46px;
-	overflow: hidden;
-	font-size: 14px;
-	font-family: "宋体";
-}
-.goodsPb {
-	font-size: 16px;
-	font-family: "宋体";
-	margin-top: 3px;
-	padding-left: 10px;
-}
-.goodsPb span {
-	color: #0066CC;
-	font-weight: bold;
-}
-.goodsPc {
-	text-decoration: line-through;
-	font-size: 16px;
-	margin-top: 5px;
-	padding-left: 10px;
-	font-family: "宋体";
-}
-
-/*----------------------------------------------------------------------------------------------------------------------*/
-
-.Paging_div {
-	height: 40px;
-	line-height: 40px;
-}
-.Paging_divson a {
+.banner-inner-order-header form {
 	float: left;
-	color: #666;
-	border: solid 1px #CECECE;
-	margin-right: 5px;
-	padding-left: 13px;
-	padding-right: 13px;
-	background-color: #F4F4F4;
 }
-.Paging_divson span {
+.banner-inner-order-header .form1 {
+	margin-left: 20px !important;
+	color: #CCCCCC;
+}
+.banner-inner-order-header .form1 input {
 	float: left;
-	margin: 0 15px;
 }
-.Paging_divson a.pagingA {
-	color: #0066CC;
-	background: none;
+.banner-inner-order-header .form2 {
+	margin-left: 40px;
 }
-.Paging_divson a:hover {
-	color: #0066CC;
-	text-decoration: none;
+.form1 .form1-in1 {
+	width: 250px;
+	height: 32px;
+	color: #CCCCCC;
+	border: 1px solid #CCCCCC;
+	margin-left: 10px;
 }
-.Paging_divson a.pagingFirst {
-	border: none;
-	color: #0066CC;
-	background: none;
+.form1 .form1-in2,.form2 .form2-in3 {
+	width: 76px;
+	height: 30px;
+	padding-bottom: 25px;
+	padding-top: 7px;
+	border: 1px solid #CCCCCC;
 }
-.Paging_divform label {
-	float: left;
-	color: #666;
+.form2 .form2-in3 {
+	padding-top: 5px;
+	height: 26px;
+	line-height: 24px;
 }
-.Paging_divform input.textInp {
-	float: left;
-	border: solid 1px #eee;
-	width: 35px;
+.form1 label,.form2 label {
+	line-height: 32px !important;
+}
+.form2 .form2-in1 {
+	width: 162px;
+	height: 28px;
+}
+.form2 .form2-in3 {
+	float: right;
+	margin-left: 20px;
+}
+.order-number {
+	width: width:1178px;
 	height: 35px;
-	line-height: 35px;
-	text-align: center;
-	margin: 0 5px;
-	color: #666;
+	border: 1px solid #BBB4B4;
+	margin: 10px;
+	color: white;
+	background: #999;
 }
-.Paging_divform input.fenYetj_sub {
+.order-number li {
 	float: left;
-	border: solid 1px #eee;
+	border-right: 1.5px solid #CCCCCC;
+	height: 35px;
 	text-align: center;
-	background-color: #F4F4F4;
-	height: 37px;
-	font-family: "微软雅黑";
-	font-size: 14px;
-	width: 45px;
-	color: #666;
-	margin-left: 7px;
-	cursor: pointer;
+	line-height: 35px;
 }
+.order-number li:nth-child(1) {
+	width: 300px;
+}
+.order-number li:nth-child(2),.order-number li:nth-child(3),.order-number li:nth-child(4) {
+	width: 156px;
+}
+
+.order-number li:nth-child(5),
+.order-number li:nth-child(6) {
+	width: 200px;
+}
+
+.order-number li:nth-child(6) {
+	border: none;
+}
+
+.banner-inner-order .table1,
+.table2 {
+	width: 1178px;
+	border: 1px solid #BBB4B4;
+	margin: 10px;
+}
+
+.banner-inner-order .table1 tr td,
+.table2 tr td {
+	border: 1px solid #BBB4B4;
+	text-align: center;
+}
+
+.banner-inner-order .table1 tr:nth-child(1),
+.table2 tr:nth-child(1) {
+	height: 35px;
+	background: #DEDFDF;
+}
+
+.banner-inner-order .table1 tr:nth-child(1) span,
+.table2 tr:nth-child(1) span {
+	float: left;
+	padding-left: 20px;
+	line-height: 35px;
+}
+
+.banner-inner-order .table1 tr:nth-child(1) a {
+	float: right;
+	width: 68px;
+	height: 27px;
+	color: white;
+	background: #005BAA;
+	line-height: 27px;
+	text-align: center;
+	margin-right: 10px;
+	margin-top: 3.5px;
+}
+
+.banner-inner-order .table1 tr:nth-child(2) {
+	height: 40px;
+	color: black;
+	margin-top: 20px;
+}
+.banner-inner-order .table1 tr:nth-child(2) td:nth-child(1),
+.table2 tr:nth-child(2) td:nth-child(1) {
+	width: 300px;
+}
+.banner-inner-order .table1 tr:nth-child(2) td:nth-child(2),
+.banner-inner-order .table1 tr:nth-child(2) td:nth-child(3),
+.banner-inner-order .table1 tr:nth-child(2) td:nth-child(4) {
+	width: 157px;
+}
+.banner-inner-order .table2 tr:nth-child(2) td:nth-child(2),
+.banner-inner-order .table2 tr:nth-child(2) td:nth-child(3),
+.banner-inner-order .table2 tr:nth-child(2) td:nth-child(4) {
+	width: 157px;
+}
+.banner-inner-order .table1 tr:nth-child(2) td:nth-child(1) img,
+.banner-inner-order .table2 tr:nth-child(2) td:nth-child(1) img,
+.banner-inner-order .table1 tr:nth-child(3) td:nth-child(1) img {
+	width: 90px;
+	height: 90px;
+	float: left;
+	margin: 15px 30px 15px 20px;
+}
+.banner-inner-order .table1 tr:nth-child(2) td:nth-child(1) span {
+	float: left;
+	margin-top: 30px;
+}
+.banner-inner-order .table1 tr:nth-child(3) td:nth-child(1) span,
+.banner-inner-order .table1 tr:nth-child(4) td:nth-child(1) span,
+.table2 tr:nth-child(2) td:nth-child(1) span {
+	display: block;
+	float: left;
+	width: 160px;
+	height: 67px;
+	margin-top: 30px;
+	text-align: left;
+}
+.banner-inner-order .table1 tr:nth-child(5) td {
+	height: 65px;
+}
+.banner-inner-order .table1 tr:nth-child(5) td p {
+	font-size: 18px;
+	float: left;
+}
+.banner-inner-order .table1 tr:nth-child(5) td p span em {
+	color: #E10012;
+}
+.banner-inner-order .table1 tr:nth-child(5) td p span em {
+	font-size: 16px;
+	font-weight: 800;
+}
+.banner-inner-order .table1 tr:nth-child(5) td p:nth-child(1) {
+	margin-left: 30px;
+}
+
+.banner-inner-order .table1 tr:nth-child(5) td p:nth-child(2) {
+	margin-left: 40px;
+}
+
+.banner-inner-cont2 {
+	width: 850px;
+	margin: 30px auto;
+}
+
+
+
+
+
 /*-------------------------------------------------------------------------------------------------------------*/
 .footer{
 	width: 850px;
